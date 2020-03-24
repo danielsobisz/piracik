@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/piracik/static/css/main.e49d9de8.chunk.css",
-    "main.js": "/piracik/static/js/main.952a384a.chunk.js",
-    "main.js.map": "/piracik/static/js/main.952a384a.chunk.js.map",
+    "main.js": "/piracik/static/js/main.e4b23975.chunk.js",
+    "main.js.map": "/piracik/static/js/main.e4b23975.chunk.js.map",
     "runtime-main.js": "/piracik/static/js/runtime-main.a46c2a3d.js",
     "runtime-main.js.map": "/piracik/static/js/runtime-main.a46c2a3d.js.map",
     "static/js/2.aac6602e.chunk.js": "/piracik/static/js/2.aac6602e.chunk.js",
     "static/js/2.aac6602e.chunk.js.map": "/piracik/static/js/2.aac6602e.chunk.js.map",
     "index.html": "/piracik/index.html",
-    "precache-manifest.1bea3449d0bf59fb9360c9ab9195ea9b.js": "/piracik/precache-manifest.1bea3449d0bf59fb9360c9ab9195ea9b.js",
+    "precache-manifest.bc93b115d3ccc21c5bbc4066686516ef.js": "/piracik/precache-manifest.bc93b115d3ccc21c5bbc4066686516ef.js",
     "service-worker.js": "/piracik/service-worker.js",
     "static/css/main.e49d9de8.chunk.css.map": "/piracik/static/css/main.e49d9de8.chunk.css.map",
     "static/js/2.aac6602e.chunk.js.LICENSE.txt": "/piracik/static/js/2.aac6602e.chunk.js.LICENSE.txt",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.a46c2a3d.js",
     "static/js/2.aac6602e.chunk.js",
     "static/css/main.e49d9de8.chunk.css",
-    "static/js/main.952a384a.chunk.js"
+    "static/js/main.e4b23975.chunk.js"
   ]
 }

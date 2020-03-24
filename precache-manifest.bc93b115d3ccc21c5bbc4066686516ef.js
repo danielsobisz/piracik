@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "77897ab007c488e5f9cdb677c8b0e694",
+    "revision": "cb165b2a58770e6649dc47276e23a8bb",
     "url": "/piracik/index.html"
   },
   {
-    "revision": "95d96532329dfaf264b8",
+    "revision": "bb5e61e96e49bfcd62be",
     "url": "/piracik/static/css/main.e49d9de8.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/piracik/static/js/2.aac6602e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "95d96532329dfaf264b8",
-    "url": "/piracik/static/js/main.952a384a.chunk.js"
+    "revision": "bb5e61e96e49bfcd62be",
+    "url": "/piracik/static/js/main.e4b23975.chunk.js"
   },
   {
     "revision": "3743c913681964537213",
