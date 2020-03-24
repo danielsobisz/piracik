@@ -21,7 +21,7 @@ można bardzo smacznie zjeść.</p></div>
             </div>
             <div className="room-content">
                 <Switch>
-                    <Route path="/" exact component={Apartment}></Route>
+                    <Route path="/piracik" exact component={Apartment}></Route>
                     <Route path="/delux" exact component={Delux}></Route>
                     <Route path="/standard" exact component={Standard}></Route>
                 </Switch>
