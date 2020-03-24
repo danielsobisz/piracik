@@ -15,7 +15,7 @@ const Main = () => {
 można bardzo smacznie zjeść.</p></div>
 
             <div className="main-blocks">
-                <NavLink to="/" exact className="main-block"><h3 className="main-block-text">apartament</h3></NavLink>
+                <NavLink to="/piracik" exact className="main-block"><h3 className="main-block-text">apartament</h3></NavLink>
                 <NavLink to="/standard" exact className="main-block"><h3 className="main-block-text">pokoje 2 osobowe</h3></NavLink>
                 <NavLink to="/delux" exact className="main-block"><h3 className="main-block-text">delux</h3></NavLink>
             </div>
