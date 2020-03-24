@@ -1,0 +1,64 @@
+.room-contents {
+    background-color: #fcfcfc;
+    margin-top: 25px;
+    padding-bottom: 25px;
+    
+}
+.room-text {
+   
+    padding: 25px 5px;
+
+}
+.room-text p {
+    color: #383b39;
+    line-height: 25px;
+    font-family: 'Raleway', sans-serif;
+    width: 95%;
+    margin: 0 auto;
+    padding: 2px;
+}
+.room-price-block {
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
+    background-color: #32a8a4;
+    width: 35%;
+    margin: 0 auto;
+    padding: 20px 30px;
+    border-radius: 6px;
+}
+.room-price-block p {
+    text-align: center;
+    color: #fff;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+}
+@media (orientation:landscape) {
+    .room-content {
+        padding-top: 10px;
+        
+    }
+}
+@media(min-width:767px) {
+    .room-content {
+        padding-top: 10px;
+        
+    }
+    .room-text {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .room-price-block {
+        width: 25%;
+    }
+}
+@media(min-width:1023px) {
+
+    .room-text {
+        width: 60%;
+        margin: 0 auto;
+    }
+    .room-price-block {
+        width: 15%;
+    }
+}

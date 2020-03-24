@@ -1,0 +1,45 @@
+header {
+    height: 80vh;
+    background:url(../images/header-mobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title {
+    font-family: 'Sen', sans-serif;
+    text-transform: uppercase;
+    font-size: 48px;
+    color: #e8e6e6;
+    letter-spacing: 3px;
+    padding: 5% 20px 20px;
+   
+}
+@media(orientation:landscape) {
+    header {
+        height: 80vh;
+        background:url(../images/header-landscape.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+@media (min-width:767px) {
+    header {
+        height: 80vh;
+        background:url(../images/header-tablet.JPG);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .title {
+        font-size: 72px;
+        padding: 5% 30px 20px;
+       
+    }
+}
+@media(min-width:1023px) {
+    header {
+        height: 80vh;
+        background:url(../images/header.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}

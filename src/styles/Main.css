@@ -1,0 +1,193 @@
+
+.main-text-block, .main-info {
+    background-color: #fcfcfc;
+    padding: 1vh 0;
+}
+.main-info {
+    margin: 0;
+}
+.main-text {
+    width: 90%;
+    padding: 25px 0 0 0;
+    margin: 2vh auto;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    line-height: 26px;
+}
+
+/* block */
+.main-blocks {
+    padding: 30px 0;
+}
+.main-block {
+    display: block;
+    position: relative;
+    width: 80%;
+    margin: 50px auto;
+    background-color: #fff;
+    height: 140px;
+}
+.main-block-text {
+    position: absolute;
+    color: #e8e6e6;
+    bottom: 20px;
+    right: 10px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.main-block:nth-of-type(1) {
+    background:linear-gradient(
+        rgba(0, 0, 0, 0.2), 
+        rgba(0, 0, 0, 0.2)
+      ), url(../images/apartment.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+}
+.main-block:nth-of-type(2) {
+    background:linear-gradient(
+        rgba(0, 0, 0, 0.2), 
+        rgba(0, 0, 0, 0.2)
+      ), url(../images/standard.jpg);
+      background-size: contain;
+      background-repeat: no-repeat;
+}
+.main-block:nth-of-type(3) {
+    background:linear-gradient(
+        rgba(0, 0, 0, 0.2), 
+        rgba(0, 0, 0, 0.2)
+      ), url(../images/delux.jpg);
+      background-size: contain;
+      background-repeat: no-repeat;
+  
+}
+/* background-div */
+.background-div {
+    height: 70vh;
+    background:linear-gradient(
+        rgba(0, 0, 0, 0.3), 
+        rgba(0, 0, 0, 0.3)
+      ), url(../images/backgrounddiv.jpg);
+   background-size: cover;
+}
+
+@media(orientation:landscape) {
+   
+    .main-text {
+        line-height: 30px;
+        width: 70%;
+        margin-bottom: 45px;
+    }
+    .main-block {
+        position: relative;
+        width: 45%;
+        margin: 25px auto;
+        background-color: #fff;
+        height: 140px;
+    }
+
+    .main-block:nth-of-type(2) {
+        background:linear-gradient(
+            rgba(0, 0, 0, 0.3), 
+            rgba(0, 0, 0, 0.3)
+          ), url(../images/standard.jpg);
+          background-size: 100% 100%;
+          background-repeat: no-repeat;
+    }
+    .main-block:nth-of-type(3) {
+        background:linear-gradient(
+            rgba(0, 0, 0, 0.2), 
+            rgba(0, 0, 0, 0.2)
+          ), url(../images/delux.jpg);
+          background-size: 100% 100%;
+          background-repeat: no-repeat;
+      
+    }
+}
+@media(min-width:767px) {
+    .main-text {
+        width: 65%;
+      font-size: 18px;
+      line-height: 30px;
+    }
+    .main-blocks {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 95%;
+        margin: 0 auto;
+    }
+    .main-block {
+        flex-basis: 35%;
+    background-size: cover;
+        height: 150px;
+    }
+    .main-block:nth-of-type(2) .main-block-text{
+         font-size: 15px;
+
+    }
+    .main-block:nth-of-type(2) {
+        background-size: cover;
+
+  }
+    .main-block:nth-of-type(3) {
+   background-size: cover;
+      
+    }
+}
+@media(min-width:799px) {
+    .main-blocks {
+        padding: 50px 0;
+    }
+    .main-block {
+        flex-basis: 30%;
+        height: 200px;
+    }
+}
+
+@media (min-width:1025px) {
+    
+.main-block {
+    filter: brightness(70%);
+    transition: .5s linear;
+    cursor: pointer;
+}
+.main-block:hover{
+   filter: brightness(100%);
+}
+.main-block.active{
+    filter: brightness(100%);
+}
+.main-block:nth-of-type(2) .main-block-text{
+    font-size: 18px;
+
+}
+.main-block-text {
+    transition: .5s linear;
+    /* text-shadow: 1px 1px 1px #000; */
+}
+.main-block:hover > .main-block-text{
+color: #527d5a;
+ }
+ .background-div {
+    height: 70vh;
+    background:linear-gradient(
+        rgba(0, 0, 0, 0.3), 
+        rgba(0, 0, 0, 0.3)
+      ), url(../images/backgrounddiv.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+}
+@media(min-width:1439px) {
+    .main-blocks {
+        width: 80%;
+
+    }
+    .main-text {
+        width: 45%;
+      line-height: 40px;
+    }
+}

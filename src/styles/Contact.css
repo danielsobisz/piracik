@@ -1,0 +1,49 @@
+.contact-section .title {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.phone-number, .e-mail, .address {
+    display: flex;
+    justify-content: center;
+    color: #e8e6e6;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 25px auto;
+}
+.address {
+   display: block;
+}
+.fa-phone, .fa-envelope, .fa-map-marker-alt {
+    margin-top: 4px;
+    padding: 5px;
+}
+.phone-number-text, .e-mail-text, .address-text {
+    padding: 5px;
+    letter-spacing: 1px;
+}
+.map-block iframe{
+    width: 100%;
+}
+@media(min-width:767px) {
+    .phone-number, .e-mail, .address {
+      font-size: 30px;
+    }
+
+}
+@media(min-width:1023px) {
+    .contact-section {
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .map-block {
+        margin-left: 50px;
+        align-self: center;
+    }
+    .map-block iframe{
+        width: 450px;
+    }
+}
