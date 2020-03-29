@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cb165b2a58770e6649dc47276e23a8bb",
+    "revision": "9a5a5b2e7641866fab781cdd2930c556",
     "url": "/piracik/index.html"
   },
   {
-    "revision": "bb5e61e96e49bfcd62be",
+    "revision": "1fbc876b21f5e6ae0dba",
     "url": "/piracik/static/css/main.e49d9de8.chunk.css"
   },
   {
-    "revision": "7e970a83f4f0f0ae799d",
-    "url": "/piracik/static/js/2.aac6602e.chunk.js"
+    "revision": "5e8a33ecb36cb51c35f4",
+    "url": "/piracik/static/js/2.f8c076e8.chunk.js"
   },
   {
     "revision": "f231859d6585c4cd5f80c344783ed269",
-    "url": "/piracik/static/js/2.aac6602e.chunk.js.LICENSE.txt"
+    "url": "/piracik/static/js/2.f8c076e8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bb5e61e96e49bfcd62be",
-    "url": "/piracik/static/js/main.e4b23975.chunk.js"
+    "revision": "1fbc876b21f5e6ae0dba",
+    "url": "/piracik/static/js/main.82c3199c.chunk.js"
   },
   {
     "revision": "3743c913681964537213",
