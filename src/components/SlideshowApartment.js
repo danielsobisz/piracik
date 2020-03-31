@@ -4,6 +4,10 @@ import "../styles/image-gallery.css"
 
 const apartment = [
     {
+        original: 'https://i.ibb.co/pb08bB2/apartament11.jpg',
+        thumbnail: 'https://i.ibb.co/pb08bB2/apartament11.jpg',
+    },
+    {
         original: 'https://i.ibb.co/nc5tSv5/apartament.jpg',
         thumbnail: 'https://i.ibb.co/nc5tSv5/apartament.jpg',
     },
@@ -42,10 +46,6 @@ const apartment = [
     {
         original: 'https://i.ibb.co/MpR9gFs/apartament10.jpg',
         thumbnail: 'https://i.ibb.co/MpR9gFs/apartament10.jpg',
-    },
-    {
-        original: 'https://i.ibb.co/pb08bB2/apartament11.jpg',
-        thumbnail: 'https://i.ibb.co/pb08bB2/apartament11.jpg',
     },
     {
         original: 'https://i.ibb.co/mBJrzp7/apartament-12.jpg',

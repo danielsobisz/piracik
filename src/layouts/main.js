@@ -12,11 +12,10 @@ const Main = () => {
                 Serdecznie zapraszamy wszystkich gości, którzy chcą się zatrzymać w uroczej, nadmorskiej
                 miejscowości jaką jest Jantar. Obiekt jest położony przy głównej drodze, nieopodal mini zoo.
                 Do morza można dojść piękną, leśną drogą lub głównym deptakiem, który prowadzi przez
-                centrum Jantara, gdzie znajdują się sklepy z pamiątkami oraz restauracje i bary, w których
-można bardzo smacznie zjeść.</p></div>
+                centrum Jantara, gdzie znajdują się sklepy z pamiątkami oraz restauracje i bary.</p></div>
 
                 <div className="main-blocks">
-                    <NavLink to="/" exact className="main-block"><h3 className="main-block-text">apartament</h3></NavLink>
+                    <NavLink to="/" exact className="main-block"> <h3 className="main-block-text">apartament</h3></NavLink>
                     <NavLink to="/standard" exact className="main-block"><h3 className="main-block-text">pokoje 2 osobowe</h3></NavLink>
                     <NavLink to="/delux" exact className="main-block"><h3 className="main-block-text">delux</h3></NavLink>
                 </div>

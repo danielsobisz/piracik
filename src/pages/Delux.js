@@ -15,7 +15,7 @@ const Delux = () => {
                     </p>
 
                 </div>
-                <div className="room-price-block"><p>od 60 zł/os</p></div>
+                <div className="room-price-block"><p>od 50 zł/os</p></div>
             </div>
         </div>
     );

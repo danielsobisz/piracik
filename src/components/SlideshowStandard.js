@@ -3,6 +3,10 @@ import ImageGallery from 'react-image-gallery';
 import "../styles/image-gallery.css"
 const standard = [
     {
+        original: 'https://i.ibb.co/bLXDFSX/slide7.jpg',
+        thumbnail: 'https://i.ibb.co/bLXDFSX/slide7.jpg',
+    },
+    {
         original: 'https://i.ibb.co/cJVSxHc/slide1.jpg',
         thumbnail: 'https://i.ibb.co/cJVSxHc/slide1.jpg',
     },
@@ -22,10 +26,7 @@ const standard = [
         original: 'https://i.ibb.co/gdd2HQL/slide6.jpg',
         thumbnail: 'https://i.ibb.co/gdd2HQL/slide6.jpg',
     },
-    {
-        original: 'https://i.ibb.co/bLXDFSX/slide7.jpg',
-        thumbnail: 'https://i.ibb.co/bLXDFSX/slide7.jpg',
-    },
+
 ];
 
 class SlideshowStandard extends React.Component {
