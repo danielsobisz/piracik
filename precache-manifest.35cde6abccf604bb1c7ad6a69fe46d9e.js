@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9a5a5b2e7641866fab781cdd2930c556",
+    "revision": "0bfb0bd944b29f9d3b611daff9f1bc1d",
     "url": "/piracik/index.html"
   },
   {
-    "revision": "1fbc876b21f5e6ae0dba",
-    "url": "/piracik/static/css/main.e49d9de8.chunk.css"
+    "revision": "8f1663bbea4b16f2ef0c",
+    "url": "/piracik/static/css/main.c98ec58f.chunk.css"
   },
   {
     "revision": "5e8a33ecb36cb51c35f4",
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/piracik/static/js/2.f8c076e8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1fbc876b21f5e6ae0dba",
-    "url": "/piracik/static/js/main.82c3199c.chunk.js"
+    "revision": "8f1663bbea4b16f2ef0c",
+    "url": "/piracik/static/js/main.b39769ae.chunk.js"
   },
   {
     "revision": "3743c913681964537213",
     "url": "/piracik/static/js/runtime-main.a46c2a3d.js"
   },
   {
-    "revision": "5538246baa8b06c7d83e232e801b6dc0",
-    "url": "/piracik/static/media/apartment.5538246b.jpg"
+    "revision": "6abcac2478f8a3806edfd7241062bef3",
+    "url": "/piracik/static/media/apartment.6abcac24.jpg"
   },
   {
     "revision": "dc889fed5dfee0d83afa89d5f4354c60",
@@ -64,7 +64,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/piracik/static/media/header.e091daf5.jpg"
   },
   {
-    "revision": "fc5b0923f7ad286d3ae7e7aec149b97c",
-    "url": "/piracik/static/media/standard.fc5b0923.jpg"
+    "revision": "62d6bf6e732b447a02283d97aca888e3",
+    "url": "/piracik/static/media/standard.62d6bf6e.jpg"
   }
 ]);
